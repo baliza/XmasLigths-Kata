@@ -6,4 +6,8 @@
     <RootNamespace>XmasLigths-Kata</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\XmasLigths-Kata.Domain\XmasLigths-Kata.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
