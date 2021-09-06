@@ -21,11 +21,11 @@ turnoff 499.499 500.500 would turn off(or leave off) the middle four lights.
 				PrintPanelStatus();
 
 				var instrucction = Console.ReadLine().Split(" ");
-				if (instrucction[0] == "turnon")
+				if (instrucction[0].ToLower() == "turnon")
 					TurnOn(instrucction[1], instrucction[2]);
-				else if (instrucction[0] == "toggle")
+				else if (instrucction[0].ToLower() == "toggle")
 					Toggle(instrucction[1], instrucction[2]);
-				else if (instrucction[0] == "turnoff")
+				else if (instrucction[0].ToLower() == "turnoff")
 					TurnOff(instrucction[1], instrucction[2]);
 			}
 		}
